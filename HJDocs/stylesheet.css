@@ -1,0 +1,21 @@
+body {
+	padding-top: 20px;
+}
+
+blockquote p {
+	font-size: 14px;
+}
+
+.tab-content {
+	padding: 40px 70px;
+}
+
+.dl-horizontal dt {
+	white-space: normal;
+	width: auto;
+}
+
+.col-md-2 {
+	min-width: 200px;
+	width: auto;
+}
