@@ -9,6 +9,9 @@
 
 */
 
+.nav.nav-pill.nav-justified li a {
+    width: 50px;
+}
 
 .dropdown-submenu {
     position: relative;
