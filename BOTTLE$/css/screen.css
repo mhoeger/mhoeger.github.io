@@ -47,7 +47,7 @@ header, section, nav, footer, aside, article { display: block; }
 
 /* globals --------------- */
 html { overflow-x:hidden; }
-body { background:#222 url('img/bg-desktop.jpg') center center fixed; font-family:"Helvetica Neue", "Helvetica", arial, sans-serif; overflow-x:hidden; position:relative;
+body { background:#222 url('img/map.jpg') center center fixed; font-family:"Helvetica Neue", "Helvetica", arial, sans-serif; overflow-x:hidden; position:relative;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover;
