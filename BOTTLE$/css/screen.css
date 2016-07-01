@@ -47,7 +47,7 @@ header, section, nav, footer, aside, article { display: block; }
 
 /* globals --------------- */
 html { overflow-x:hidden; }
-body { background:#222 url('../img/map.jpg') center center fixed; font-family:"Helvetica Neue", "Helvetica", arial, sans-serif; overflow-x:hidden; position:relative;
+body { background:#222 url('../img/map.png') center center fixed; font-family:"Helvetica Neue", "Helvetica", arial, sans-serif; overflow-x:hidden; position:relative;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover;
@@ -498,7 +498,9 @@ body { background:#222 url('../img/map.jpg') center center fixed; font-family:"H
 
 
 /* about pane -------------------*/
-#about-pane { position:fixed; z-index:400; left:0; right:0; opacity:0; top:-50%; padding:20px 0; background:rgba(0,0,0,.65) url('/theme/img/smile.png') no-repeat bottom center;
+/*#about-pane { position:fixed; z-index:400; left:0; right:0; opacity:0; top:-50%; padding:20px 0; background:rgba(0,0,0,.65) url('/theme/img/smile.png') no-repeat bottom center;
+*/
+#about-pane { position:fixed; z-index:400; left:0; right:0; opacity:0; top:-50%; padding:20px 0; background:rgba(255,255,255,.65) url('../img/map.png') no-repeat bottom center;
 	-webkit-transition:top .5s ease-in-out, opacity .5s ease-in-out;
 	-moz-transition:top .5s ease-in-out, opacity .5s ease-in-out;
 	-ms-transition:top .5s ease-in-out, opacity .5s ease-in-out;
