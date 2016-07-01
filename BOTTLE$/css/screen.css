@@ -47,7 +47,7 @@ header, section, nav, footer, aside, article { display: block; }
 
 /* globals --------------- */
 html { overflow-x:hidden; }
-body { background:#222 url('img/map.jpg') center center fixed; font-family:"Helvetica Neue", "Helvetica", arial, sans-serif; overflow-x:hidden; position:relative;
+body { background:#222 url('../img/map.jpg') center center fixed; font-family:"Helvetica Neue", "Helvetica", arial, sans-serif; overflow-x:hidden; position:relative;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover;
@@ -302,17 +302,17 @@ body { background:#222 url('img/map.jpg') center center fixed; font-family:"Helv
 #slides .slide[data-view="intro"] p img { left:-3.2em; bottom:6px; width:13%; }
 #slides .slide[data-view="intro"] p { margin:.1em 4.1em; width:80%; }
 
-/* whitehouse */
-#slides .slide[data-view="whitehouse"] p img { left:-2.9em; bottom:12px; width:12%; }
-#slides .slide[data-view="whitehouse"] p { margin:.1em 4.1em; width:80%; }
+/* method1 */
+#slides .slide[data-view="method1"] p img { left:-2.9em; bottom:12px; width:12%; }
+#slides .slide[data-view="method1"] p { margin:.1em 4.1em; width:80%; }
 
-/* twitter */
-#slides .slide[data-view="twitter"] p img { left:-2.9em; bottom:12px; width:12%; }
-#slides .slide[data-view="twitter"] p { margin:.1em 4.1em; width:80%; }
+/* method2 */
+#slides .slide[data-view="method2"] p img { left:-2.9em; bottom:12px; width:12%; }
+#slides .slide[data-view="method2"] p { margin:.1em 4.1em; width:80%; }
 
-/* columbia */
-#slides .slide[data-view="columbia"] p img { left:-2.5em; bottom:8px; width:10%; }
-#slides .slide[data-view="columbia"] p { margin:.1em 4.1em; width:90%; }
+/* method3 */
+#slides .slide[data-view="method3"] p img { left:-2.5em; bottom:8px; width:10%; }
+#slides .slide[data-view="method3"] p { margin:.1em 4.1em; width:90%; }
 
 /* nclud */
 #slides .slide[data-view="nclud"] p img { left:-2.3em; bottom:6px; width:9.5%; }
@@ -405,16 +405,16 @@ body { background:#222 url('img/map.jpg') center center fixed; font-family:"Helv
 #panes .pane[data-view="intro"] .inner .left { width:330px; }
 #panes .pane[data-view="intro"] .inner .right { width:330px; }
 
-/* whitehouse */
-#panes .pane[data-view="whitehouse"] .inner .right { width:325px; }
+/* method1 */
+#panes .pane[data-view="method1"] .inner .right { width:325px; }
 
-/* twitter */
-#panes .pane[data-view="twitter"] .inner .left { width:300px; }
-#panes .pane[data-view="twitter"] .inner img { top:-15%; }
-#panes .pane[data-view="twitter"] .inner .right { width:325px; }
+/* method2 */
+#panes .pane[data-view="method2"] .inner .left { width:300px; }
+#panes .pane[data-view="method2"] .inner img { top:-15%; }
+#panes .pane[data-view="method2"] .inner .right { width:325px; }
 
-/* whitehouse */
-#panes .pane[data-view="columbia"] .inner .right { width:325px; }
+/* method1 */
+#panes .pane[data-view="method3"] .inner .right { width:325px; }
 
 /* nclud */
 #panes .pane[data-view="nclud"] .inner .left { width:285px; }
@@ -532,7 +532,7 @@ body { background:#222 url('img/map.jpg') center center fixed; font-family:"Helv
 	transition:background-color .2s ease-in-out;
 }
 #about-pane ul#elsewhere li a:hover { background-color:rgba(255,255,255,.15); }
-#about-pane ul#elsewhere li a.twitter { background-position:8px 10px; }
+#about-pane ul#elsewhere li a.method2 { background-position:8px 10px; }
 #about-pane ul#elsewhere li a.facebook { background-position:8px -27px; }
 #about-pane ul#elsewhere li a.linkedin { background-position:8px -62px; }
 #about-pane ul#elsewhere li a.dribbble { background-position:7px -98px; }
