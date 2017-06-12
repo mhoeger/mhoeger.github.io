@@ -500,7 +500,14 @@ body { background:#222 url('../img/map.png') center center fixed; font-family:"H
 /* about pane -------------------*/
 /*#about-pane { position:fixed; z-index:400; left:0; right:0; opacity:0; top:-50%; padding:20px 0; background:rgba(0,0,0,.65) url('/theme/img/smile.png') no-repeat bottom center;
 */
-#about-pane { position:fixed; z-index:400; left:0; right:0; opacity:0; top:-50%; padding:20px 0; background:rgba(255,255,255,.65) url('../img/map.png') no-repeat bottom center;
+
+/*#about-pane { position:fixed; z-index:400; left:0; right:0; opacity:0; top:-50%; padding:100px 0; background:rgba(0,0,0,.65) url('../img/map.png') center center fixed; overflow-x:hidden;
+*/	
+#about-pane { display:block; position:fixed; z-index:400; left:0; right:0; width:100%; opacity:0; top:-50%; padding:20px 0; background:rgba(0,0,0,.65) url('../img/map.png') center center fixed; overflow-x:hidden;
+	height: -moz-calc(100% - 150px); /* Firefox */
+ 	height: -webkit-calc(100% - 150px); /* Chrome, Safari */
+ 	height: calc(100% - 150px); /* IE9+ and future browsers */
+
 	-webkit-transition:top .5s ease-in-out, opacity .5s ease-in-out;
 	-moz-transition:top .5s ease-in-out, opacity .5s ease-in-out;
 	-ms-transition:top .5s ease-in-out, opacity .5s ease-in-out;
@@ -514,8 +521,8 @@ body { background:#222 url('../img/map.png') center center fixed; font-family:"H
 #about-pane div.left { width:340px; }
 
 /* Misc content elements */
-#about-pane img { position:absolute; bottom:0; left:50%; margin-left:-225px; }
-#about-pane * { color:#888; line-height:150%; }
+/*#about-pane img { position:absolute; bottom:0; left:50%; margin-left:-225px; }
+*/#about-pane * { color:#888; line-height:150%; }
 #about-pane p strong { color:#fff; display:block; }
 #about-pane p a { color:#fff; }
 
