@@ -2,7 +2,7 @@
 * @Author: Marie Hoeger
 * @Date:   2017-06-12 18:55:48
 * @Last Modified by:   Marie Hoeger
-* @Last Modified time: 2017-06-20 15:03:52
+* @Last Modified time: 2017-06-20 15:08:02
 */
 
 'use strict';
@@ -64,7 +64,7 @@ function setMarkers(map) {
   // Origins, anchor positions and coordinates of the marker increase in the X
   // direction to the right and in the Y direction down.
   var image = {
-    url: 'file:///Users/Marie/Documents/WebApps/mhoeger.github.io/UrbanAdventures/Images/Marie_Pictures/2017-06-18 12.07.11.jpg', // 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+    url: 'mhoeger.github.io/UrbanAdventures/Images/Marie_Pictures/2017-06-18 12.07.11.jpg', // 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
     // This marker is 20 pixels wide by 32 pixels high.
     size: new google.maps.Size(20, 32),
     // The origin for this image is (0, 0).
