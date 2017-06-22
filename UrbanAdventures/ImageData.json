@@ -1,0 +1,6 @@
+Names = ["Marie"];
+
+ImageData = { "Marie":
+	{ "link": "https://dl.dropboxusercontent.com/s/nv42ml3e6b8cks5/",
+	"images": ["2017-06-19%2013.16.06.jpg"]}
+};
